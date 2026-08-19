@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import HomeNavbar from "../components/home/HomeNavbar";
 import Footer from "../components/home/Footer";
 import Banner from "../components/home/Banner";
+import GoogleAd from "../components/GoogleAd";
 
 const blogs = {
   1: {
@@ -439,22 +440,34 @@ const BlogDetail = () => {
                   </li>
                 ))}
               </ul>
-            </aside>
+             </aside>
 
-            <div className="space-y-8 text-base leading-8 text-slate-700">
-              {blog.sections.map((section) => (
-                <section id={section.id} key={section.id}>
-                  <h2 className="mb-4 text-2xl font-bold text-slate-900">
-                    {section.heading}
-                  </h2>
-                  {section.paragraphs.map((paragraph, index) => (
-                    <p key={`${section.id}-${index}`} className="mb-4">
-                      {paragraph}
-                    </p>
-                  ))}
-                </section>
-              ))}
-            </div>
+             <GoogleAd className="mb-10" />
+
+             <div className="space-y-8 text-base leading-8 text-slate-700">
+               {blog.sections.map((section, index) => (
+                 <section id={section.id} key={section.id}>
+                   <h2 className="mb-4 text-2xl font-bold text-slate-900">
+                     {section.heading}
+                   </h2>
+                   {section.paragraphs.map((paragraph, pIndex) => (
+                     <p key={`${section.id}-${pIndex}`} className="mb-4">
+                       {paragraph}
+                     </p>
+                   ))}
+
+                   {index === 1 && (
+                     <GoogleAd className="my-10" />
+                   )}
+
+                   {index === 3 && (
+                     <GoogleAd className="my-10" />
+                   )}
+                 </section>
+               ))}
+             </div>
+
+             <GoogleAd className="mt-10" />
           </article>
         </div>
       </div>
