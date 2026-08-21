@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/</loc>
+    <loc>https://resumebuilder24.online/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/about</loc>
+    <loc>https://resumebuilder24.online/about</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/blog</loc>
+    <loc>https://resumebuilder24.online/blog</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/contact</loc>
+    <loc>https://resumebuilder24.online/contact</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/terms-and-policy</loc>
+    <loc>https://resumebuilder24.online/terms-and-policy</loc>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/blog/1</loc>
+    <loc>https://resumebuilder24.online/blog/1</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/blog/2</loc>
+    <loc>https://resumebuilder24.online/blog/2</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/blog/3</loc>
+    <loc>https://resumebuilder24.online/blog/3</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://resume-builder-roan-phi.vercel.app/blog/4</loc>
+    <loc>https://resumebuilder24.online/blog/4</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
